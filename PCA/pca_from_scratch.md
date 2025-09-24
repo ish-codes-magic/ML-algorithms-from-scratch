@@ -311,8 +311,8 @@ fig_hist.update_layout(
 fig_hist.show()
 ```
 
-![PCA](..\img\pca_exploratory.png)
-![PCA](..\img\pca_exploratory_2.png)
+![PCA](https://github.com/ish-codes-magic/ML-algorithms-from-scratch/blob/main/img/pca_exploratory.png)
+![PCA](https://github.com/ish-codes-magic/ML-algorithms-from-scratch/blob/main/img/pca_exploratory_2.png)
     
 
 
@@ -513,7 +513,7 @@ After calculating the eigenvalues and eigenvectors PCA ranks them by the amount 
 
 This means we reduce the number of features (dimensions) while keeping the important patterns in the data.
 
-![PCA](..\img\Principal-Componenent-Analysisi.webp)
+![PCA](https://github.com/ish-codes-magic/ML-algorithms-from-scratch/blob/main/img/Principal-Componenent-Analysisi.webp)
 
 
 In the above image the original dataset has two features "Radius" and "Area" represented by the black axes. PCA identifies two new directions: PC₁ and PC₂ which are the principal components.
@@ -742,7 +742,7 @@ fig_variance.update_yaxes(showgrid=True, gridcolor='lightgray')
 fig_variance.show()
 ```
 
-![PCA](..\img\pca_exploratory_3.png)
+![PCA](https://github.com/ish-codes-magic/ML-algorithms-from-scratch/blob/main/img/pca_exploratory_3.png)
 
 ## Step 6: Project the data
 
@@ -896,7 +896,7 @@ print(f"Setosa ↔ Virginica: {distances[1]:.3f}")
 print(f"Versicolor ↔ Virginica: {distances[2]:.3f}")
 ```
 
-![PCA](..\img\pca_exploratory_4.png)
+![PCA](https://github.com/ish-codes-magic/ML-algorithms-from-scratch/blob/main/img/pca_exploratory_4.png)
 
     PCA Transformation Summary:
     Data shape after PCA: (150, 2)
@@ -1034,7 +1034,7 @@ fig_pca_enhanced.update_layout(
 fig_pca_enhanced.show()
 ```
 
-![PCA](..\img\pca_exploratory_5.png)
+![PCA](https://github.com/ish-codes-magic/ML-algorithms-from-scratch/blob/main/img/pca_exploratory_5.png)
 
 # PCA class implementation using eigendecomposition
 
@@ -1243,7 +1243,7 @@ fig_pca_enhanced.update_layout(
 fig_pca_enhanced.show()
 ```
 
-![PCA](..\img\pca_exploratory_6.png)
+![PCA](https://github.com/ish-codes-magic/ML-algorithms-from-scratch/blob/main/img/pca_exploratory_6.png)
 
 
 Note for SVD:
